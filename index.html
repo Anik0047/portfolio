@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- Css Files -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar">
+      <h1 class="logo">Anik Barua</h1>
+      <ul class="nav_links_container">
+        <li class="nav_link">
+          <a href="#home_section" class="links active">Home</a>
+        </li>
+        <li class="nav_link">
+          <a href="#about_section" class="links">About</a>
+        </li>
+        <li class="nav_link">
+          <a href="#skill" class="links">Skills</a>
+        </li>
+        <li class="nav_link">
+          <a href="#project_section" class="links">Projects</a>
+        </li>
+        <li class="nav_link">
+          <a href="#contact_section" class="links">Contact</a>
+        </li>
+      </ul>
+
+      <!-- toggle btn -->
+
+      <div class="toggle_btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Header -->
+
+    <header class="header" id="home_section">
+      <div class="content">
+        <h1 class="header_Heading">
+          Hello, I am <span class="brand_name">Anik Barua</span>
+        </h1>
+        <a
+          href="https://www.linkedin.com/in/anik-barua-a5ab04212/"
+          target="_blank"
+          class="btn"
+          >Hire me</a
+        >
+        <a
+          href="""
+          download="./Anik Barua.pdf"
+          class="btn"
+          >Download CV</a
+        >
+      </div>
+
+      <div class="header_img_container">
+        <div class="circle"></div>
+        <img src="images/img-2.jpg" class="header_img" alt="" />
+      </div>
+    </header>
+
+    <!-- about section -->
+
+    <section id="about_section">
+      <h1 class="heading">About Me</h1>
+
+      <!-- about_container -->
+
+      <div class="about_container">
+        <div class="image_container">
+          <div class="square"></div>
+          <img src="images/img-1.jpg" class="about_img" alt="" />
+          <div class="social_links">
+            <a target="_blank" href="https://github.com/Anik0047"
+              ><img src="images/github.png" class="social_img" alt=""
+            /></a>
+            <a target="_blank" href="https://www.linkedin.com/in/anik-barua-a5ab04212/"
+              ><img src="images/linked.png" class="social_img" alt=""
+            /></a>
+          </div>
+        </div>
+
+        <!-- info part -->
+
+        <div class="info">
+          <p>
+            I am a skilled MERN Stack Developer with expertise in MongoDB,
+            Express.js, React.js, and Node.js. I excel in designing RESTful
+            APIs, efficient backend solutions, and user-friendly interfaces. A
+            graduate of East Delta University, I am passionate about optimizing
+            performance and staying current with full-stack development trends.I
+            thrive in challenging environments, focusing on professional growth
+            and delivering high-quality solutions. As a collaborative team
+            player with strong problem-solving abilities, I seek opportunities
+            to contribute to progressive organizations and drive exceptional
+            results.Connect with me on LinkedIn to explore opportunities and
+            collaborate on innovative digital solutions.
+          </p>
+          <a
+          href="https://www.linkedin.com/in/anik-barua-a5ab04212/"
+          target="_blank"
+          class="btn"
+          >Hire me</a
+        >
+        <a
+          href="""
+          download="./Anik Barua.pdf"
+          class="btn"
+          >Download CV</a
+        >
+        </div>
+      </div>
+
+      <!-- skill section -->
+      <h2 id="skill" class="sub_heading">Skills</h2>
+      <div class="skills">
+        <p class="skill_name">HTML5</p>
+        <p class="skill_name">CSS3</p>
+        <p class="skill_name">JavaScript</p>
+        <p class="skill_name">React.js</p>
+        <p class="skill_name">Express.js</p>
+        <p class="skill_name">Node.js</p>
+        <p class="skill_name">MongoDB</p>
+        <p class="skill_name">PHP</p>
+        <p class="skill_name">MySQL</p>
+        <p class="skill_name">Bootstrap</p>
+        <p class="skill_name">Tailwind</p>
+        <p class="skill_name">DaisyUi</p>
+        <p class="skill_name">Firebase</p>
+        <p class="skill_name">React-Bootstrap</p>
+        <p class="skill_name">React-Query</p>
+        <p class="skill_name">React-Hook</p>
+      </div>
+    </section>
+
+    <!-- project section -->
+
+    <section id="project_section">
+      <h1 class="heading">Projects</h1>
+
+      <div class="filters">
+        <button class="btn filter_btn active">All</button>
+        <button class="btn filter_btn">React</button>
+        <button class="btn filter_btn">PHP</button>
+        <button class="btn filter_btn">fullstack</button>
+      </div>
+
+      <!-- project card -->
+
+      <div class="project_container">
+        <!-- <div class="project_card">
+          <div class="project_wrapper">
+            <div class="project_thumbnail">
+              <img src="images/close.png" class="close_btn" alt="" />
+              <img src="images/project.png" class="project_img" alt="" />
+              <span class="tags">#javascript, #css</span>
+            </div>
+
+            <div class="project_body">
+              <h1 class="project_name">Pizza Delicious</h1>
+              <p class="project_detail">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                quidem nisi neque dolorum corrupti facilis obcaecati quas
+                quisquam libero adipisci sapiente architecto quibusdam eius
+                atque excepturi, minima maxime eveniet ipsa sint corporis eaque!
+                Voluptatum dicta ad numquam qui, quidem unde, nihil vitae sed
+                distinctio ducimus impedit reiciendis aperiam esse neque?
+              </p>
+              <a href="#" class="btn">Github</a>
+              <a href="#" class="btn">Live Link</a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- contact section -->
+
+    <section id="contact_section">
+      <h1 class="heading">Contact</h1>
+      <div class="contact_container">
+        <div class="contact_information">
+          <i class="fa-brands fa-linkedin"></i>
+          <p>
+            <a target="_blank" href="https://www.linkedin.com/in/anik-barua-a5ab04212/"
+              >Anik Barua</a
+            >
+          </p>
+        </div>
+        <div class="contact_information">
+          <i class="fa-solid fa-envelope"></i>
+          <p>anikbrua98@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="./project.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
